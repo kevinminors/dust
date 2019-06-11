@@ -49,12 +49,29 @@ nbproject
 *.iml
 
 
-#
-#
-#
+# ********** Latex **********
+*.aux
+*.bbl
+*.log
+*.toc
+*.blg
+*.synctex.gz
+
+
+
+# ********** NativeModel **********
+Improbable/NativeModel-keanu/results/*.csv
+Improbable/NativeModel-keanu/results/*.dot
+Improbable/NativeModel-keanu/results/*.html
+Improbable/NativeModel-keanu/results/figures/
+Improbable/NativeModel-keanu/results/*.png
+
+# ********** stationSim ***********
+Improbable/stationSim-keanu/simulation_outputs/
+
 # ********** **********
 # ********** **********
 # ********** **********
 # ********** **********
 # ********** **********
-# ********** **********
+Projects/DataAssimilation/Kalman-and-Bayesian-Filters-in-Python
